@@ -46,19 +46,9 @@
   cursor: pointer;
 }
 .nav_list_item:hover {
-  /* background-image: linear-gradient(
-    0.25turn,
-    hsl(136, 65%, 51%),
-    hsl(192, 70%, 51%)
-  );*/
   color: black;
-  padding-bottom: 20px;
-  border-image: linear-gradient(
-    0.25turn,
-    hsl(136, 65%, 51%),
-    hsl(192, 70%, 51%)
-  );
-  border-bottom: 2px solid;
+  border-bottom: 2px solid hsl(192, 70%, 51%);
+  padding-bottom: 30px;
 }
 
 .Hero {
@@ -88,6 +78,53 @@
   font-family: "Public Sans", sans-serif;
   font-size: 18px;
   margin: 30px 0px;
-  line-height: 1.4;
+  line-height: 1.6;
   word-spacing: 10%;
+}
+.mid-item {
+  background-color: hsl(219, 27%, 90%);
+}
+.mid-section-grid {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.mid-heading-h2 {
+  color: hsl(233, 26%, 24%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 60px;
+}
+.mid-heading-para {
+  color: hsl(233, 8%, 62%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  margin: 30px 0px;
+  line-height: 1.6;
+  word-spacing: 10%;
+}
+.mid-card {
+  margin-top: 20px;
+}
+.mid-operation_grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+.mid-card-heading {
+  color: hsl(233, 26%, 24%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 30px 0;
+}
+.mid-card-para {
+  color: hsl(233, 8%, 62%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  margin: 30px 0px;
+  line-height: 1.6;
 }
