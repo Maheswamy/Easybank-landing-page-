@@ -107,6 +107,7 @@
 }
 .mid-card {
   margin-top: 20px;
+  padding-bottom: 60px;
 }
 .mid-operation_grid {
   display: flex;
@@ -127,4 +128,114 @@
   font-size: 16px;
   margin: 30px 0px;
   line-height: 1.6;
+}
+.bottom {
+  background-color: hsl(0, 0%, 98%);
+}
+.bottom-width {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.bottom-heading {
+  color: hsl(233, 26%, 24%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  padding-top: 60px;
+}
+.bot-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  gap: 30px;
+  margin-top: 60px;
+  background-color: white;
+  border-radius: 5px;
+}
+.bot-img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  max-height: 147px;
+}
+.bot-content {
+  padding: 10px 10px;
+}
+.author-name {
+  color: hsl(233, 8%, 62%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+.bot-card-heading {
+  color: hsl(233, 26%, 24%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.bot-card-heading:hover {
+  color: hsl(192, 70%, 51%);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.bot-card-para {
+  color: hsl(233, 8%, 62%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  margin: 10px 0px;
+  line-height: 1.6;
+}
+.botmain-card {
+  display: Flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.footer {
+  background-color: hsl(233, 26%, 24%);
+  height: 240px;
+}
+.footer-width {
+  max-width: 1000px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 40px 10px;
+}
+.bank_name_footer {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+}
+.social {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.social-logo img {
+  max-height: 15px;
+}
+.details_links {
+  display: grid;
+  grid-template-columns: 120px 120px;
+  justify-items: center;
+  column-gap: 60px;
+}
+.footer_link {
+  text-decoration: none;
+  font-family: "Public Sans", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+.footer_link:hover {
+  color: hsl(192, 70%, 51%);
+  transition: 0.2s;
+}
+.footer_link_a {
+  margin: 30px 0;
+}
+.xxxx {
+  position: relative;
+  right: -30%;
 }
